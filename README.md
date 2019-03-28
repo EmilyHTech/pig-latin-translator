@@ -1,2 +1,2 @@
 # pig-latin-translator
-buggy, testing things
+a very simple python 3 pig-latin translator. 
