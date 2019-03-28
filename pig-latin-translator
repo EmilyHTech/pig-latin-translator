@@ -1,17 +1,14 @@
 
-
-
-print 'welcome 2 pig latin translator
-'
+print ('welcome 2 da pig latin translator')
 pyg = 'ay'
 
 
-original = raw_input('enter a word:')
+original = input('enter a word:')
 
 
-  if len(original) >= 0 and original.isalpha():
+if len(original) >= 0 and original.isalpha():
   
-    print original
+    print (original)
   
     word = original.lower()
   
@@ -21,8 +18,8 @@ original = raw_input('enter a word:')
   
     new_word = new_word [1:len(new_word)]
   
-    print new_word
+    print (new_word)
 
-  else:
+else:
   
-print 'you messed up, no spaces, numbers, or non-alphabetical characters are allowed dipshit'
+  print ('uh oh! there was an error, no spaces, numbers, or non-alphabetical characters are allowed. try again?')
